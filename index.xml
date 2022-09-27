@@ -1,1 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Igor Nascimento</title><link>https://igornoliveira.github.io/</link><description>Recent content on Igor Nascimento</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://igornoliveira.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Igor Nascimento</title><link>https://igornoliveira.github.io/</link><description>Recent content on Igor Nascimento</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://igornoliveira.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://igornoliveira.github.io/adicionar-sua-chave-ssh-ao-ssh-agent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/adicionar-sua-chave-ssh-ao-ssh-agent/</guid><description>&lt;h2 id="adicionar-sua-chave-ssh-ao-ssh-agent">Adicionar sua chave SSH ao ssh-agent&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">eval &amp;#34;$(ssh-agent -s)&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add ~/.ssh/id_ed25519
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title/><link>https://igornoliveira.github.io/puliblicando-em-mais-de-um-repositorio-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/puliblicando-em-mais-de-um-repositorio-git/</guid><description>&lt;h2 id="publicando-em-mais-de-um-repositorio-git">Publicando em mais de um repositorio git&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git remote [nome] [endereço do reposiotorio]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git remote set-url --add --push [home] [endereço do repositorio]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git remote -v
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title/><link>https://igornoliveira.github.io/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</guid><description>&lt;h2 id="forçar-sincronização-do-microsoft-ad-com-todos-os-sites-remotos">Forçar Sincronização do Microsoft AD Com Todos os Sites Remotos&lt;/h2>
+&lt;p>Este é um comando interessante caso haja algum problema com a replicação automática dos sites remotos do AD.
+Ele força a replicação do AD primário para todos os sites.
+O comando deve ser feito à partir do AD Primário. Na tela de Prompt do MS-Dos, entre com o comando abaixo:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">repadmin /syncall /e /A /P /d /q
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="aqui-cada-um-dos-parâmetros-explicados">Aqui cada um dos parâmetros explicados:&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>/syncall: Sincroniza o domain controller principal com todos os parceiros de replicação;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/e: Enterprise… indica que a replicação será estendida a todos os sites remotos;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/A: All; Sincroniza todas as partições do home server;&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>
+&lt;p>/P: Indica que as mudanças serão replicadas a partir do servidor primário;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/d: Identifica os servidores por seus nomes distintos em eventuais mensagens que possam aparecer;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/q: Quiet mode. Não mostra as mensagens de status. Caso você esteja fazendo isso manualmente por algum problema, é melhor não usar este parâmetro para identificar algum erro.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="verificando-o-status-da-replicação-do-active-directory-ad">Verificando o status da replicação do Active Directory (AD)&lt;/h2>
+&lt;h4 id="repadmin">Repadmin&lt;/h4>
+&lt;p>Digite o comando &lt;strong>repadmin /showreps&lt;/strong> e aperte Enter.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">repadmin /showreps &amp;gt; nomedoarquivo.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Existem outros comandos do repadmin, são eles:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Mostra a estatísca das replicações.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Repadmin /replsummary
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Mostra informações sobre replicações entre sites.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Repadmin /showism
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h4 id="dcdiag">Dcdiag&lt;/h4>
+&lt;p>Digite dcdiag &lt;strong>/test:replications&lt;/strong> e aperte Enter.&lt;/p>
+&lt;p>dcdiag /test:replications &amp;gt; nomedoarquivo.txt&lt;/p>
+&lt;p>Outro commando importante do dcdiag é dcdiag /test:dns que apresenta um relatório sobre o estado do DN.&lt;/p>
+&lt;p>Lembre-se: Para gerar um arquivo .txt na raíz do C: digite cd /&lt;/p></description></item></channel></rss>
