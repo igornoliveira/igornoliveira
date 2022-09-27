@@ -12,3 +12,8 @@ cd ..
 git add .
 git commit -m "${commit}"
 git push origin main
+
+cd content
+git add .
+git commit -m "${commit}"
+git push origin main
