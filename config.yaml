@@ -4,15 +4,15 @@ theme: hugo-theme-stack
 paginate: 5
 title: Igor Nascimento
 
-languages:
-    en:
-        languageName: English
+#languages:
+#    en:
+#        languageName: English
 #        title: Igor Nascimento
-        weight: 1
-    pt-br:
-        languageName: Português
+#        weight: 1
+#    pt-br:
+#        languageName: Português
 #        title: Igor Nascimento
-        weight: 2
+#        weight: 2
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
