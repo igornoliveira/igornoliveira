@@ -31,55 +31,7 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">net localgroup Nome_do_grupo
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Ativar e Desativar o Firewall do Windows pelo CMD</title><link>https://igornoliveira.github.io/p/ativar-e-desativar-o-firewall-do-windows-pelo-cmd/</link><pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/ativar-e-desativar-o-firewall-do-windows-pelo-cmd/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall set allprofiles state off
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall set allprofiles state on
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall show allprofiles
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Adicionando chave SSH ao ssh-agent</title><link>https://igornoliveira.github.io/p/adicionando-chave-ssh-ao-ssh-agent/</link><pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/adicionando-chave-ssh-ao-ssh-agent/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">eval &amp;#34;$(ssh-agent -s)&amp;#34;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add ~/.ssh/id_ed25519
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add -l
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Arquivos</title><link>https://igornoliveira.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/archives/</guid><description/></item><item><title/><link>https://igornoliveira.github.io/puliblicando-em-mais-de-um-repositorio-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/puliblicando-em-mais-de-um-repositorio-git/</guid><description>&lt;h2 id="publicando-em-mais-de-um-repositorio-git">Publicando em mais de um repositorio git&lt;/h2>
+&lt;/div></description></item><item><title>Publicar em mais de um repositorio git</title><link>https://igornoliveira.github.io/p/publicar-em-mais-de-um-repositorio-git/</link><pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/publicar-em-mais-de-um-repositorio-git/</guid><description>&lt;h2 id="publicando-em-mais-de-um-repositorio-git">Publicando em mais de um repositorio git&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -104,7 +56,7 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git remote -v
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title/><link>https://igornoliveira.github.io/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</guid><description>&lt;h2 id="forçar-sincronização-do-microsoft-ad-com-todos-os-sites-remotos">Forçar Sincronização do Microsoft AD Com Todos os Sites Remotos&lt;/h2>
+&lt;/div></description></item><item><title>Sincronização do AD com todos os Sites Remotos</title><link>https://igornoliveira.github.io/p/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</link><pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/sincroniza%C3%A7%C3%A3o-do-ad-com-todos-os-sites-remotos/</guid><description>&lt;h2 id="forçar-sincronização-do-microsoft-ad-com-todos-os-sites-remotos">Forçar Sincronização do Microsoft AD Com Todos os Sites Remotos&lt;/h2>
 &lt;p>Este é um comando interessante caso haja algum problema com a replicação automática dos sites remotos do AD.
 Ele força a replicação do AD primário para todos os sites.
 O comando deve ser feito à partir do AD Primário. Na tela de Prompt do MS-Dos, entre com o comando abaixo:&lt;/p>
@@ -179,4 +131,52 @@ O comando deve ser feito à partir do AD Primário. Na tela de Prompt do MS-Dos,
 &lt;p>Digite dcdiag &lt;strong>/test:replications&lt;/strong> e aperte Enter.&lt;/p>
 &lt;p>dcdiag /test:replications &amp;gt; nomedoarquivo.txt&lt;/p>
 &lt;p>Outro commando importante do dcdiag é dcdiag /test:dns que apresenta um relatório sobre o estado do DN.&lt;/p>
-&lt;p>Lembre-se: Para gerar um arquivo .txt na raíz do C: digite cd /&lt;/p></description></item><item><title>Pesquisa</title><link>https://igornoliveira.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/search/</guid><description/></item></channel></rss>
+&lt;p>Lembre-se: Para gerar um arquivo .txt na raíz do C: digite cd /&lt;/p></description></item><item><title>Ativar e Desativar o Firewall do Windows pelo CMD</title><link>https://igornoliveira.github.io/p/ativar-e-desativar-o-firewall-do-windows-pelo-cmd/</link><pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/ativar-e-desativar-o-firewall-do-windows-pelo-cmd/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall set allprofiles state off
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall set allprofiles state on
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">netsh Advfirewall show allprofiles
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Adicionando chave SSH ao ssh-agent</title><link>https://igornoliveira.github.io/p/adicionando-chave-ssh-ao-ssh-agent/</link><pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/p/adicionando-chave-ssh-ao-ssh-agent/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">eval &amp;#34;$(ssh-agent -s)&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add ~/.ssh/id_ed25519
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-add -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Arquivos</title><link>https://igornoliveira.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/archives/</guid><description/></item><item><title>Pesquisa</title><link>https://igornoliveira.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://igornoliveira.github.io/search/</guid><description/></item></channel></rss>
